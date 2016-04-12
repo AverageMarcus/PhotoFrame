@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PhotoFrame</title>
+  <script src="scripts/justifiedLayout.min.js"></script>
+  <script src="scripts/babel-polyfill.min.js"></script>
+  <script src="scripts/images.js"></script>
+  <style>
+    html,body {
+      padding:0;
+      margin:0;
+      width:100%;
+      color: white;
+      background: black;
+      overflow:hidden;
+    }
+    .justified {
+      position: relative;
+      width: 100%;
+      -webkit-animation-duration: 600s;
+      -webkit-animation-name: scroll;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      -webkit-animation-timing-function: linear;
+    }
+    .box {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <h1>Loading...</h1>
+  <section>
+    <div class="justified"></div>
+  </section>
+
+  <script src="scripts/photoFrame.js"></script>
+</body>
+</html>
