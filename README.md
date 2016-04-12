@@ -10,4 +10,4 @@ Simply place all your photos in the photos directory and run `build.sh`.
 
 ## Example
 
-![Pugs](http://i.imgur.com/4Lx7iNw.gifv)
+![pugs](https://cloud.githubusercontent.com/assets/3384072/14450992/0717bd16-007b-11e6-9e38-47451f844e71.gif)
